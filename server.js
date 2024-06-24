@@ -6,6 +6,7 @@ const app = express()
 
 const apiKey = process.env.API_KEY;
 
+
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs')
